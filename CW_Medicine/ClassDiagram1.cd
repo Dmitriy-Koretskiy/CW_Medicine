@@ -1,0 +1,71 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="CW_Medicine.Mode_1">
+    <Position X="9.5" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAgAAAAACgACDAIAAABAAAgAAQAABCAAAAAEAACAgA=</HashCode>
+      <FileName>Mode_1.xaml.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CW_Medicine.WorkWithDB">
+    <Position X="7.5" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAABAAACAEAAAAQACAAgAQQAAACAAAAAAAQCAAAAAAg=</HashCode>
+      <FileName>WorkWithDB.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CW_Medicine.WorkWithRow">
+    <Position X="5.25" Y="6.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAgAAAAAAgA=</HashCode>
+      <FileName>WorkWithRow.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CW_Medicine.Info">
+    <Position X="5.25" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAIAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAEAAgEAAAA=</HashCode>
+      <FileName>WorkWithRow.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CW_Medicine.Mode_2">
+    <Position X="11.5" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAIAAAAAAAAAAAAIAAABAAAAAAQAAAAAAAAAEAAAEAA=</HashCode>
+      <FileName>Mode_2.xaml.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CW_Medicine.Mode_3">
+    <Position X="13.5" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAgAAAAAAIAAABAAAAAQQAAAQAAAAAEBAAAAE=</HashCode>
+      <FileName>Mode_3.xaml.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CW_Medicine.MainWindow">
+    <Position X="5.25" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>MainWindow.xaml.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CW_Medicine.AdminMode">
+    <Position X="7.5" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAABAAAACAAAAAAAAAAAAAAABAAAAAAAIAAAAAAACA=</HashCode>
+      <FileName>AdminMode.xaml.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CW_Medicine.Statistics">
+    <Position X="15.75" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Statistics.xaml.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="System.Windows.Window" Collapsed="true">
+    <Position X="10.5" Y="0.75" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

@@ -1,0 +1,47 @@
+﻿<Window x:Class="CW_Medicine.Mode_1"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Mode_1" Height="755.667" Width="1030">
+    <Grid Margin="0,0,0,-5" Background="#E5DCF1F1">
+        <Button x:Name="Result" Content="Result" HorizontalAlignment="Left" VerticalAlignment="Top" Width="80" Margin="168,645,0,0" Click="Result_Click" IsEnabled="False" TabIndex="9"/>
+        <Button x:Name="Next" Content="Next" HorizontalAlignment="Left" Margin="350,645,0,0" VerticalAlignment="Top" Width="75" Click="Next_Click" TabIndex="10"/>
+        <Label Content="Group:" HorizontalAlignment="Left" Margin="14,26,0,0" VerticalAlignment="Top" Width="64"/>
+        <Label Content="Subgroup" HorizontalAlignment="Left" Margin="14,57,0,0" VerticalAlignment="Top" Width="70"/>
+        <Label Content="1" HorizontalAlignment="Left" Margin="39,92,0,0" VerticalAlignment="Top" Width="17"/>
+        <Label Content="2" HorizontalAlignment="Left" Margin="39,178,0,0" VerticalAlignment="Top" Width="17"/>
+        <Label Content="3" HorizontalAlignment="Left" Margin="39,268,0,0" VerticalAlignment="Top" Width="17"/>
+        <Label Content="4" HorizontalAlignment="Left" Margin="39,360,0,0" VerticalAlignment="Top" Width="17"/>
+        <Label Content="5" HorizontalAlignment="Left" Margin="39,454,0,0" VerticalAlignment="Top" Width="17"/>
+        <Label Content="6" HorizontalAlignment="Left" Margin="39,541,0,0" VerticalAlignment="Top" Width="17"/>
+        <Label Content="Namber of preparations:" HorizontalAlignment="Left" Margin="295,26,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="number" Content="" HorizontalAlignment="Left" Margin="449,26,0,0" VerticalAlignment="Top" Width="39"/>
+        <Label x:Name="NameGroup" Content="" HorizontalAlignment="Left" Margin="89,26,0,0" VerticalAlignment="Top" Width="159"/>
+        <TextBox x:Name="Preparation1" HorizontalAlignment="Left" Height="23" Margin="88,92,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="240" TabIndex="2"/>
+        <TextBox x:Name="TB_Subgroup" HorizontalAlignment="Left" Height="23" Margin="88,60,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="240" TabIndex="1"/>
+        <TextBox x:Name="Preparation2" HorizontalAlignment="Left" Height="23" Margin="88,178,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="240" TabIndex="3"/>
+        <TextBox x:Name="Preparation4" HorizontalAlignment="Left" Height="23" Margin="88,360,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="240" TabIndex="5"/>
+        <TextBox x:Name="Preparation5" HorizontalAlignment="Left" Height="23" Margin="88,454,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="240" TabIndex="6"/>
+        <TextBox x:Name="Preparation6" HorizontalAlignment="Left" Height="23" Margin="88,544,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="240" TabIndex="7"/>
+        <TextBox x:Name="Preparation3" HorizontalAlignment="Left" Height="23" Margin="88,268,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="240" TabIndex="4"/>
+        <Button x:Name="ConfirmSubgroup" Content="Subgroup" HorizontalAlignment="Left" Margin="84,645,0,0" VerticalAlignment="Top" Width="74" Click="Subgroup_Click" TabIndex="8"/>
+        <Label x:Name="Answer1" Content="" HorizontalAlignment="Left" Margin="357,92,0,0" VerticalAlignment="Top" Width="78" Height="23"/>
+        <Label x:Name="Answer2" Content="" HorizontalAlignment="Left" Margin="357,178,0,0" VerticalAlignment="Top" Width="78" Height="23"/>
+        <Label x:Name="Answer3" Content="" HorizontalAlignment="Left" Margin="357,265,0,0" VerticalAlignment="Top" Width="78" Height="23"/>
+        <Label x:Name="Answer4" Content="" HorizontalAlignment="Left" Margin="357,360,0,0" VerticalAlignment="Top" Width="78" Height="23"/>
+        <Label x:Name="Answer5" Content="" HorizontalAlignment="Left" Margin="357,455,0,0" VerticalAlignment="Top" Width="78" Height="23"/>
+        <Label x:Name="Answer6" Content="" HorizontalAlignment="Left" Margin="357,544,0,0" VerticalAlignment="Top" Width="78" Height="23"/>
+        <TextBox x:Name="TB_CorrectAnswer" HorizontalAlignment="Left" Height="533" Margin="560,92,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="415" TabIndex="11"/>
+        <TextBlock x:Name="Description3" HorizontalAlignment="Left" Margin="88,299,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="53" Width="448"/>
+        <TextBlock x:Name="Description1" HorizontalAlignment="Left" Margin="88,120,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="53" Width="448"/>
+        <TextBlock x:Name="Description4" HorizontalAlignment="Left" Margin="89,391,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="53" Width="448"/>
+        <TextBlock x:Name="Description2" HorizontalAlignment="Left" Margin="89,207,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="53" Width="448"/>
+        <TextBlock x:Name="Description5" HorizontalAlignment="Left" Margin="90,483,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="53" Width="448"/>
+        <TextBlock x:Name="Description6" HorizontalAlignment="Left" Margin="88,572,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="53" Width="448"/>
+        <Button x:Name="ClearButton" Content="Clear" HorizontalAlignment="Left" Margin="261,645,0,0" VerticalAlignment="Top" Width="75" Click="ClearButton_Click"/>
+        <Button x:Name="B_Finish" Content="Finish" HorizontalAlignment="Left" Margin="439,645,0,0" VerticalAlignment="Top" Width="75" Click="B_Finish_Click"/>
+        <Label Content="CorrectAnsver:" HorizontalAlignment="Left" Margin="560,26,0,0" VerticalAlignment="Top"/>
+        <Label Content="Score:" HorizontalAlignment="Left" Margin="586,645,0,0" VerticalAlignment="Top" Height="28"/>
+        <Label x:Name="L_Score" Content="" HorizontalAlignment="Left" Margin="644,645,0,0" VerticalAlignment="Top" Height="28" Width="69"/>
+
+    </Grid>
+</Window>

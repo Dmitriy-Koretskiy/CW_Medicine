@@ -1,0 +1,25 @@
+﻿<Window x:Class="CW_Medicine.AdminMode"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+              Title="Admin Mode" Height="369.224" Width="791.142">
+    <Grid Margin="10,0,0,0" Background="#E5DCF1F1">
+        <DataGrid AutoGenerateColumns="True" Height="272" HorizontalAlignment="Left"  Focusable="True" Margin="166,10,0,0" Name="ShowResultDataGrid" VerticalAlignment="Top" Width="580"  
+                  ItemsSource="{Binding}" IsReadOnly="False" CanUserAddRows="False" CanUserDeleteRows="False" CanUserResizeColumns="False" CanUserResizeRows="False" >
+        </DataGrid>
+        <Button x:Name="B_delete" Content="-" HorizontalAlignment="Left" Margin="598,295,0,0" VerticalAlignment="Top" Width="32" Click="B_delete_Click"/>
+        <Button x:Name="B_update" Content="Update" HorizontalAlignment="Left" Margin="484,295,0,0" VerticalAlignment="Top" Width="47" Click="B_update_Click" Height="20"/>
+        <Button x:Name="B_insert" Content="+" HorizontalAlignment="Left" Margin="548,295,0,0" VerticalAlignment="Top" Width="32" Click="B_insert_Click"/>
+        <ComboBox x:Name="CBox" HorizontalAlignment="Left" Margin="28,28,0,0" VerticalAlignment="Top" Width="120" SelectionChanged="ComboBox_SelectionChanged">
+            <ComboBoxItem Content="AccessRights"/>
+            <ComboBoxItem Content="Amount"/>
+            <ComboBoxItem Content="Applaying"/>
+            <ComboBoxItem Content="Dosage"/>
+            <ComboBoxItem Content="DosageForm"/>
+            <ComboBoxItem Content="Groups"/>
+            <ComboBoxItem Content="Medicine"/>
+            <ComboBoxItem Content="Sessions"/>
+            <ComboBoxItem Content="Subgroup"/>
+            <ComboBoxItem Content="Users"/>
+        </ComboBox>
+    </Grid>
+</Window>
