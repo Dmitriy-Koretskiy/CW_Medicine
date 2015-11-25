@@ -30,14 +30,14 @@ namespace CW_Medicine
 
         private void B_insert_Click(object sender, RoutedEventArgs e)
         {
-            try
-            {
+            //try
+            //{
                 WorkWithDB.InsertRow(currentTable);
-            }
-            catch
-            {
-                MessageBox.Show("Insert error");
-            }
+            //}
+            //catch
+            //{
+            //    MessageBox.Show("Insert error");
+            //}
         }
 
         private void B_update_Click(object sender, RoutedEventArgs e)

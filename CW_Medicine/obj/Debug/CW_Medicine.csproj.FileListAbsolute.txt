@@ -21,3 +21,25 @@ F:\лабы\решенные\3 курс\ОБД\CW_Medicine\CW_Medicine\obj\Debug
 F:\лабы\решенные\3 курс\ОБД\CW_Medicine\CW_Medicine\bin\Debug\CW_Medicine.exe.config
 F:\лабы\решенные\3 курс\ОБД\CW_Medicine\CW_Medicine\obj\Debug\AdminMode.baml
 F:\лабы\решенные\3 курс\ОБД\CW_Medicine\CW_Medicine\obj\Debug\AdminMode.g.cs
+F:\лабы\решенные\3 курс\Курсовая СПО\CW_Medicine\CW_Medicine\bin\Debug\CW_Medicine.exe.config
+F:\лабы\решенные\3 курс\Курсовая СПО\CW_Medicine\CW_Medicine\bin\Debug\CW_Medicine.exe
+F:\лабы\решенные\3 курс\Курсовая СПО\CW_Medicine\CW_Medicine\bin\Debug\CW_Medicine.pdb
+F:\лабы\решенные\3 курс\Курсовая СПО\CW_Medicine\CW_Medicine\obj\Debug\AdminMode.baml
+F:\лабы\решенные\3 курс\Курсовая СПО\CW_Medicine\CW_Medicine\obj\Debug\MainWindow.baml
+F:\лабы\решенные\3 курс\Курсовая СПО\CW_Medicine\CW_Medicine\obj\Debug\Mode_1.baml
+F:\лабы\решенные\3 курс\Курсовая СПО\CW_Medicine\CW_Medicine\obj\Debug\Mode_3.baml
+F:\лабы\решенные\3 курс\Курсовая СПО\CW_Medicine\CW_Medicine\obj\Debug\Statistics.baml
+F:\лабы\решенные\3 курс\Курсовая СПО\CW_Medicine\CW_Medicine\obj\Debug\Mode_2.baml
+F:\лабы\решенные\3 курс\Курсовая СПО\CW_Medicine\CW_Medicine\obj\Debug\AdminMode.g.cs
+F:\лабы\решенные\3 курс\Курсовая СПО\CW_Medicine\CW_Medicine\obj\Debug\MainWindow.g.cs
+F:\лабы\решенные\3 курс\Курсовая СПО\CW_Medicine\CW_Medicine\obj\Debug\Mode_1.g.cs
+F:\лабы\решенные\3 курс\Курсовая СПО\CW_Medicine\CW_Medicine\obj\Debug\Mode_3.g.cs
+F:\лабы\решенные\3 курс\Курсовая СПО\CW_Medicine\CW_Medicine\obj\Debug\Statistics.g.cs
+F:\лабы\решенные\3 курс\Курсовая СПО\CW_Medicine\CW_Medicine\obj\Debug\Mode_2.g.cs
+F:\лабы\решенные\3 курс\Курсовая СПО\CW_Medicine\CW_Medicine\obj\Debug\App.g.cs
+F:\лабы\решенные\3 курс\Курсовая СПО\CW_Medicine\CW_Medicine\obj\Debug\CW_Medicine_MarkupCompile.cache
+F:\лабы\решенные\3 курс\Курсовая СПО\CW_Medicine\CW_Medicine\obj\Debug\CW_Medicine.g.resources
+F:\лабы\решенные\3 курс\Курсовая СПО\CW_Medicine\CW_Medicine\obj\Debug\CW_Medicine.Properties.Resources.resources
+F:\лабы\решенные\3 курс\Курсовая СПО\CW_Medicine\CW_Medicine\obj\Debug\CW_Medicine.csproj.GenerateResource.Cache
+F:\лабы\решенные\3 курс\Курсовая СПО\CW_Medicine\CW_Medicine\obj\Debug\CW_Medicine.exe
+F:\лабы\решенные\3 курс\Курсовая СПО\CW_Medicine\CW_Medicine\obj\Debug\CW_Medicine.pdb

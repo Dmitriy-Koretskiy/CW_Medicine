@@ -99,6 +99,7 @@ namespace CW_Medicine
             con.Close();
         }
 
+
         /// <summary>
         /// Удаление строки
         /// </summary>
@@ -121,8 +122,46 @@ namespace CW_Medicine
         {
 
             DataRow row = ds.Tables[currentTable].NewRow();
+            row[1] = RandomString();
+            
             ds.Tables[currentTable].Rows.Add(row);
+          //  ds.Tables[currentTable].Row[]
         }
+
+       
+
+        public static int RandomInt() {
+            con.Open();
+            SqlCommand command = con.CreateCommand();
+            command.CommandText ="generateRandomInt";
+            SqlParameter paramIdMin = new SqlParameter("MinValue", SqlDbType.Int, Int16.MaxValue);
+            paramIdMin.Value = 1;
+            SqlParameter paramIdMax = new SqlParameter("MaxValue", SqlDbType.Int, Int16.MaxValue);
+            paramIdMax.Value = 3;
+            command.Parameters.Add(paramIdMax);
+            command.Parameters.Add(paramIdMin);
+            command.CommandType = CommandType.StoredProcedure;          
+         //   int d =  command.ExecuteNonQuery();
+            con.Close();
+            return 0;
+        }
+
+        public static string RandomString()
+        {
+            con.Open();
+            SqlCommand command = con.CreateCommand();
+            command.CommandText = "generateRandomString";
+            const int rndLen = 6;
+            command.Parameters.Add(new SqlParameter("@Length", rndLen));
+            SqlParameter rndIdParam = new SqlParameter("@RandomId", SqlDbType.VarChar, int.MaxValue);//типа varchar(max)
+            rndIdParam.Direction = ParameterDirection.Output;
+            command.Parameters.Add(rndIdParam);
+                
+            command.CommandType = CommandType.StoredProcedure;
+            command.ExecuteNonQuery();
+            con.Close();
+            return (String)rndIdParam.Value;
+        } 
 
         /// <summary>
         /// Создание улучшенной таблицы сессии
